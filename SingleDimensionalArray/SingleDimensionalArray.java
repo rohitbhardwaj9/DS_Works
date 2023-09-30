@@ -63,11 +63,12 @@ public class SingleDimensionalArray {
     //Deleting an element from Array
     public void deleteValue(int valueToBeDeleteIndex){
         try {
-            arr[valueToBeDeleteIndex] = Integer.MIN_VALUE;
-            System.out.println("The value has been deleted successfully");
-
+            arr[valueToBeDeleteIndex] = Integer.MIN_VALUE;      //------------------------------------- O(1)
+            System.out.println("The value has been deleted successfully");  //----------------------- O(1)
         } catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("The value that is provided is not in the range of array");
+            System.out.println("The value that is provided is not in the range of array"); //-------- O(1)
         }
     }
+    //Time Complexity: O(1)
+    //Space Complexity: O(1)
 }

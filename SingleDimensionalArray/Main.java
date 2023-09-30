@@ -34,7 +34,7 @@ class Main{
 
         //Deleting an element in array
         System.out.println("Deleting an element in array: ");
-        sda.deleteValue(0);
-        System.out.println(sda.arr[0]);
+        sda.deleteValue(0); //The value has been deleted successfully
+        System.out.println(sda.arr[0]); //-2147483648
     }
 }

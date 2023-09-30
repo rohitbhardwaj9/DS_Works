@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class CreateAnArray{
+class OneDimensionalArray{
     public static void main(String[] args) {
         
         //declare
